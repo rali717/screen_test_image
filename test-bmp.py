@@ -1,4 +1,5 @@
-import Image
+#import Image
+from PIL import Image
 
 img = Image.new( 'RGB', (1440,900), "black") # create a new black image
 pixels = img.load() # create the pixel map
