@@ -218,7 +218,7 @@ img.save("1920,1080_red.bmp")
 
 ################################################################################
 
-img = Image.new( 'RGB', (3840,2160), "red") # create a new black image
+img = Image.new( 'RGB', (1920, 1080), "red") # create a new black image
 pixels = img.load() # create the pixel map
 
 for i in range(0,img.size[0],1):    # for every pixel:
@@ -231,7 +231,7 @@ img.save("1920,1080_red.bmp")
 
 ################################################################################
 
-img = Image.new( 'RGB', (3840,2160), "green") # create a new black image
+img = Image.new( 'RGB', (1920, 1080), "green") # create a new black image
 pixels = img.load() # create the pixel map
 
 for i in range(0,img.size[0],1):    # for every pixel:
@@ -244,7 +244,7 @@ img.save("1920,1080_green.bmp")
 
 ################################################################################
 
-img = Image.new( 'RGB', (3840,2160), "blue") # create a new black image
+img = Image.new( 'RGB', (1920, 1080), "blue") # create a new black image
 pixels = img.load() # create the pixel map
 
 for i in range(0,img.size[0],1):    # for every pixel:
